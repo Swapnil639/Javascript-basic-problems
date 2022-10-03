@@ -1,0 +1,16 @@
+const prompt = require("prompt-sync")();
+let a,b,c;
+a = prompt("Enter a:");
+console.log("a = ", a);
+b = prompt("Enter b:");
+console.log("b = ", b);
+c = prompt("Enter c:");
+console.log("c = ", c);
+let operation1 = a + b * c;
+let operation2 = a % b + c;
+let operation3 = c + a / b;
+let operation4 = a * b + c;
+console.log("a+b*c = " + operation1);
+console.log("a%b+c = " + operation2);
+console.log("a+b/c = " + operation3);
+console.log("a*b+c = " + operation4);
