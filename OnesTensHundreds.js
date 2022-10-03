@@ -1,0 +1,10 @@
+const prompt = require("prompt-sync")();
+let number;
+number = prompt("Enter number:");
+console.log("number is: ", number);
+let one = (number / 1) % 10;
+let tens = (number / 10) % 10;
+let hundred = (number / 100) % 10;
+console.log("Ones place digit is:" + one);
+console.log("Tens place digit:" + tens);
+console.log("Hundred place digit is:" + hundred);
